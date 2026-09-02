@@ -1,6 +1,5 @@
 /*
-Count Digits in a Number
-Question
+Question-
 1. You have to count the number of digits in a number.
 2. Take an integer n as input, for which the digits have to be counted.
 3. Print the number of digits in that number.
