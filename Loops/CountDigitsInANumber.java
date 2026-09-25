@@ -26,7 +26,8 @@ The number 65784383 contains 8 digits, so the output is:
 */
 
 
-mport java.util.*;
+// From while loop
+import java.util.*;
 
 class Main {
     public static void main(String[] args) {
@@ -42,3 +43,20 @@ class Main {
     }      
 }
 
+
+
+//From for loop
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+       Scanner scn = new Scanner(System.in);
+           int n = scn.nextInt();
+           
+           int c = 0;
+           for(int i = n; i != 0; i/=10){
+           c++;
+           }
+        System.out.println(c);
+    }
+}
