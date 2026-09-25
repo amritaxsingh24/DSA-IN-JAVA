@@ -28,7 +28,7 @@ Therefore, these numbers are printed as the output.
 */
 
 
-
+ 
 import java.util.*;
 class Main {
     public static void main(String[] args) {
